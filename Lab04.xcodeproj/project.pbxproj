@@ -14,6 +14,8 @@
 		3122483F1D77DF6E00A79681 /* Lab04.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3122483D1D77DF6E00A79681 /* Lab04.xcdatamodeld */; };
 		312248411D77DF6E00A79681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312248401D77DF6E00A79681 /* Assets.xcassets */; };
 		312248441D77DF6E00A79681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312248421D77DF6E00A79681 /* LaunchScreen.storyboard */; };
+		312248511D77DFE300A79681 /* cellTableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122484F1D77DFE300A79681 /* cellTableTableViewCell.m */; };
+		312248521D77DFE300A79681 /* cellTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 312248501D77DFE300A79681 /* cellTableTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		312248401D77DF6E00A79681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		312248431D77DF6E00A79681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		312248451D77DF6E00A79681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3122484E1D77DFE300A79681 /* cellTableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellTableTableViewCell.h; sourceTree = "<group>"; };
+		3122484F1D77DFE300A79681 /* cellTableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellTableTableViewCell.m; sourceTree = "<group>"; };
+		312248501D77DFE300A79681 /* cellTableTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellTableTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +65,9 @@
 		312248301D77DF6E00A79681 /* Lab04 */ = {
 			isa = PBXGroup;
 			children = (
-				312248341D77DF6E00A79681 /* AppDelegate.h */,
-				312248351D77DF6E00A79681 /* AppDelegate.m */,
-				312248371D77DF6E00A79681 /* ViewController.h */,
-				312248381D77DF6E00A79681 /* ViewController.m */,
+				3122484D1D77DFC300A79681 /* Cells */,
+				3122484C1D77DF8700A79681 /* Controllers */,
+				3122484B1D77DF7B00A79681 /* Main */,
 				3122483A1D77DF6E00A79681 /* Main.storyboard */,
 				312248401D77DF6E00A79681 /* Assets.xcassets */,
 				312248421D77DF6E00A79681 /* LaunchScreen.storyboard */,
@@ -80,6 +84,34 @@
 				312248321D77DF6E00A79681 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3122484B1D77DF7B00A79681 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				312248341D77DF6E00A79681 /* AppDelegate.h */,
+				312248351D77DF6E00A79681 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		3122484C1D77DF8700A79681 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				312248371D77DF6E00A79681 /* ViewController.h */,
+				312248381D77DF6E00A79681 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3122484D1D77DFC300A79681 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3122484E1D77DFE300A79681 /* cellTableTableViewCell.h */,
+				3122484F1D77DFE300A79681 /* cellTableTableViewCell.m */,
+				312248501D77DFE300A79681 /* cellTableTableViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +173,7 @@
 			files = (
 				312248441D77DF6E00A79681 /* LaunchScreen.storyboard in Resources */,
 				312248411D77DF6E00A79681 /* Assets.xcassets in Resources */,
+				312248521D77DFE300A79681 /* cellTableTableViewCell.xib in Resources */,
 				3122483C1D77DF6E00A79681 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +187,7 @@
 			files = (
 				312248391D77DF6E00A79681 /* ViewController.m in Sources */,
 				3122483F1D77DF6E00A79681 /* Lab04.xcdatamodeld in Sources */,
+				312248511D77DFE300A79681 /* cellTableTableViewCell.m in Sources */,
 				312248361D77DF6E00A79681 /* AppDelegate.m in Sources */,
 				312248331D77DF6E00A79681 /* main.m in Sources */,
 			);
