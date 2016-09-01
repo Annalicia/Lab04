@@ -1,15 +1,16 @@
 //
-//  ViewController.h
+//  Declarations.m
 //  Lab04
 //
 //  Created by Annalicia Ostos on 31/08/16.
 //  Copyright © 2016 Codelko. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Declarations.h"
 
-@interface ViewController : UIViewController
+NSMutableArray  *names;
+NSMutableArray  *images;
 
+@implementation Declarations
 
 @end
-
